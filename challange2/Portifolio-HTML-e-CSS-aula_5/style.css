@@ -1,7 +1,7 @@
 /*o que é Viewport? Permite que as PÁGINAS SE TORNEM RESPONSIVAS, ou seja, que elas se adequem ao tamanho da tela a ser exibida.*/
 
 
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Open+Sans:ital,wght@1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Open+Sans:ital,wght@1,300;1,600&display=swap');
 
 
 
@@ -35,11 +35,27 @@
 .conteudo-botao-links{
     display: flex;
     justify-content: space-between;
+    
+
 }
 .botao-link{
     
-    background-color: #22D4FD;
+    text-align: center;
     width: 280px;
+    border-radius: 16px;
+    background-color: #22D4FD;
+    font-size: 24px;
+    font-weight: 600; /*peso da fonte maior (negrito)*/
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+ 
+
+    
+    
+
+
 }
     
 *{ /* asterisco informa que este comando será aplicado em TODO O CONTEÚDO DA PÁGINA DO HTML*/
