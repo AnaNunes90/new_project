@@ -8,14 +8,19 @@
 .conteudo-completo{
     display: flex;
     align-items: center;
-    justify-content: space-between; /* justify-content posiciona os elementos de acordo com o requisito do desenvolvedor; space-evenly, além de distribuir
+    justify-content: space-evenly; /* justify-content posiciona os elementos de acordo com o requisito do desenvolvedor; space-evenly, além de distribuir
     os elementos entre os espaços contidos, também inclui as bordas do primeiro e do último elemento no container*/
-    margin: 10%;
+    margin: 10% 15%;
+    
+    
 
 }
 
 .conteudo-texto-completo{
     width: 615px; /*largura*/
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     
 
 }
@@ -32,12 +37,25 @@
 
 }
 
+
 .conteudo-botao-links{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center
+    
     
 
 }
+
+.conteudo-titulo-links{
+
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+
+}
+
 .botao-link{
     
     text-align: center;
@@ -46,14 +64,10 @@
     background-color: #22D4FD;
     font-size: 24px;
     font-weight: 600; /*peso da fonte maior (negrito)*/
-    padding: 21.5px 0px;
-    text-decoration: none;
+    padding: 21.5px 0px; /*em padding, o primeiro valor é sempre do eixo vertical, seguido do horizontal*/
+    text-decoration: none; /* none elimina a decoração automática que o navegador faz*/
     color: #000000;
     font-family: 'Montserrat', sans-serif;
- 
-
-    
-    
 
 
 }
@@ -74,4 +88,8 @@ body{
 }
 .destaque-titulo{
     color: #22D4FD;
+}
+
+.footer-completo {
+    background-color: #22D4FD;
 }
